@@ -1,0 +1,17 @@
+server:
+  port: 6001
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.0.1.77:3306/sake
+    username: sake
+    password: sake
+#    driver-class-name: oracle.jdbc.OracleDriver
+#    url: jdbc:oracle:thin:@61.155.157.42:11521:traveldb
+#    username: JIKE
+#    password: luopan8866611666
+mybatis:
+  check-config-location: true
+  type-aliases-package: com.example.demo.po
+  mapper-locations: classpath:mapper/*.xml
+  
